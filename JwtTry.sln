@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26730.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{857387C3-2415-4DE1-9BCA-5FCAAF18E417}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTry.Api", "JwtTry.Api\JwtTry.Api.csproj", "{5F31510C-A879-44FB-9D77-6C368A2A66CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTry.Services.Identity", "JwtTry.Services.Identity\JwtTry.Services.Identity.csproj", "{C9A32D97-ACAE-4037-8041-4A2853978997}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtTry.Common", "JwtTry.Common\JwtTry.Common.csproj", "{CEE8DC29-0C44-4387-91CB-3F4C711A49AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F31510C-A879-44FB-9D77-6C368A2A66CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F31510C-A879-44FB-9D77-6C368A2A66CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F31510C-A879-44FB-9D77-6C368A2A66CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F31510C-A879-44FB-9D77-6C368A2A66CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A32D97-ACAE-4037-8041-4A2853978997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A32D97-ACAE-4037-8041-4A2853978997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A32D97-ACAE-4037-8041-4A2853978997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A32D97-ACAE-4037-8041-4A2853978997}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CEE8DC29-0C44-4387-91CB-3F4C711A49AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CEE8DC29-0C44-4387-91CB-3F4C711A49AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CEE8DC29-0C44-4387-91CB-3F4C711A49AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CEE8DC29-0C44-4387-91CB-3F4C711A49AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5F31510C-A879-44FB-9D77-6C368A2A66CD} = {857387C3-2415-4DE1-9BCA-5FCAAF18E417}
+		{C9A32D97-ACAE-4037-8041-4A2853978997} = {857387C3-2415-4DE1-9BCA-5FCAAF18E417}
+		{CEE8DC29-0C44-4387-91CB-3F4C711A49AB} = {857387C3-2415-4DE1-9BCA-5FCAAF18E417}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8A932123-9957-459D-8BBA-6652A197AD29}
+	EndGlobalSection
+EndGlobal
